@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67CA2C3272FFD4E00747F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67CA2C2272FFD4E00747F78 /* AppDelegate.swift */; };
+		A67CA2C7272FFD4E00747F78 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67CA2C6272FFD4E00747F78 /* ImagePickerViewController.swift */; };
+		A67CA2CA272FFD4E00747F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67CA2C8272FFD4E00747F78 /* Main.storyboard */; };
+		A67CA2CC272FFD5000747F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67CA2CB272FFD5000747F78 /* Assets.xcassets */; };
+		A67CA2CF272FFD5000747F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67CA2CD272FFD5000747F78 /* LaunchScreen.storyboard */; };
+		A67CA2DA272FFD5000747F78 /* SAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67CA2D9272FFD5000747F78 /* SAPTests.swift */; };
+		A67CA2E5272FFD5000747F78 /* SAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67CA2E4272FFD5000747F78 /* SAPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67CA2D6272FFD5000747F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67CA2B7272FFD4E00747F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67CA2BE272FFD4E00747F78;
+			remoteInfo = SAP;
+		};
+		A67CA2E1272FFD5000747F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67CA2B7272FFD4E00747F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67CA2BE272FFD4E00747F78;
+			remoteInfo = SAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A67CA2BF272FFD4E00747F78 /* SAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67CA2C2272FFD4E00747F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67CA2C6272FFD4E00747F78 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		A67CA2C9272FFD4E00747F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A67CA2CB272FFD5000747F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A67CA2CE272FFD5000747F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A67CA2D0272FFD5000747F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67CA2D5272FFD5000747F78 /* SAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67CA2D9272FFD5000747F78 /* SAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPTests.swift; sourceTree = "<group>"; };
+		A67CA2DB272FFD5000747F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67CA2E0272FFD5000747F78 /* SAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67CA2E4272FFD5000747F78 /* SAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPUITests.swift; sourceTree = "<group>"; };
+		A67CA2E6272FFD5000747F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67CA2BC272FFD4E00747F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2D2272FFD5000747F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2DD272FFD5000747F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67CA2B6272FFD4E00747F78 = {
+			isa = PBXGroup;
+			children = (
+				A67CA2C1272FFD4E00747F78 /* SAP */,
+				A67CA2D8272FFD5000747F78 /* SAPTests */,
+				A67CA2E3272FFD5000747F78 /* SAPUITests */,
+				A67CA2C0272FFD4E00747F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67CA2C0272FFD4E00747F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67CA2BF272FFD4E00747F78 /* SAP.app */,
+				A67CA2D5272FFD5000747F78 /* SAPTests.xctest */,
+				A67CA2E0272FFD5000747F78 /* SAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67CA2C1272FFD4E00747F78 /* SAP */ = {
+			isa = PBXGroup;
+			children = (
+				A67CA2C2272FFD4E00747F78 /* AppDelegate.swift */,
+				A6F1649F273006B900F9B51A /* Features */,
+				A67CA2C8272FFD4E00747F78 /* Main.storyboard */,
+				A67CA2CB272FFD5000747F78 /* Assets.xcassets */,
+				A67CA2CD272FFD5000747F78 /* LaunchScreen.storyboard */,
+				A67CA2D0272FFD5000747F78 /* Info.plist */,
+			);
+			path = SAP;
+			sourceTree = "<group>";
+		};
+		A67CA2D8272FFD5000747F78 /* SAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A67CA2D9272FFD5000747F78 /* SAPTests.swift */,
+				A67CA2DB272FFD5000747F78 /* Info.plist */,
+			);
+			path = SAPTests;
+			sourceTree = "<group>";
+		};
+		A67CA2E3272FFD5000747F78 /* SAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A67CA2E4272FFD5000747F78 /* SAPUITests.swift */,
+				A67CA2E6272FFD5000747F78 /* Info.plist */,
+			);
+			path = SAPUITests;
+			sourceTree = "<group>";
+		};
+		A6F1649F273006B900F9B51A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A6F164A0273006C100F9B51A /* ImagePciker */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A6F164A0273006C100F9B51A /* ImagePciker */ = {
+			isa = PBXGroup;
+			children = (
+				A6F164A42730071400F9B51A /* Controllers */,
+				A6F164A3273006DC00F9B51A /* ViewModel */,
+				A6F164A2273006D500F9B51A /* Models */,
+				A6F164A1273006D000F9B51A /* View */,
+			);
+			path = ImagePciker;
+			sourceTree = "<group>";
+		};
+		A6F164A1273006D000F9B51A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6F164A2273006D500F9B51A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6F164A3273006DC00F9B51A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A6F164A42730071400F9B51A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A67CA2C6272FFD4E00747F78 /* ImagePickerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67CA2BE272FFD4E00747F78 /* SAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67CA2E9272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAP" */;
+			buildPhases = (
+				A67CA2BB272FFD4E00747F78 /* Sources */,
+				A67CA2BC272FFD4E00747F78 /* Frameworks */,
+				A67CA2BD272FFD4E00747F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAP;
+			productName = SAP;
+			productReference = A67CA2BF272FFD4E00747F78 /* SAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67CA2D4272FFD5000747F78 /* SAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67CA2EC272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAPTests" */;
+			buildPhases = (
+				A67CA2D1272FFD5000747F78 /* Sources */,
+				A67CA2D2272FFD5000747F78 /* Frameworks */,
+				A67CA2D3272FFD5000747F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67CA2D7272FFD5000747F78 /* PBXTargetDependency */,
+			);
+			name = SAPTests;
+			productName = SAPTests;
+			productReference = A67CA2D5272FFD5000747F78 /* SAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A67CA2DF272FFD5000747F78 /* SAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67CA2EF272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAPUITests" */;
+			buildPhases = (
+				A67CA2DC272FFD5000747F78 /* Sources */,
+				A67CA2DD272FFD5000747F78 /* Frameworks */,
+				A67CA2DE272FFD5000747F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67CA2E2272FFD5000747F78 /* PBXTargetDependency */,
+			);
+			name = SAPUITests;
+			productName = SAPUITests;
+			productReference = A67CA2E0272FFD5000747F78 /* SAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67CA2B7272FFD4E00747F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A67CA2BE272FFD4E00747F78 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A67CA2D4272FFD5000747F78 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A67CA2BE272FFD4E00747F78;
+					};
+					A67CA2DF272FFD5000747F78 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A67CA2BE272FFD4E00747F78;
+					};
+				};
+			};
+			buildConfigurationList = A67CA2BA272FFD4E00747F78 /* Build configuration list for PBXProject "SAP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67CA2B6272FFD4E00747F78;
+			productRefGroup = A67CA2C0272FFD4E00747F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67CA2BE272FFD4E00747F78 /* SAP */,
+				A67CA2D4272FFD5000747F78 /* SAPTests */,
+				A67CA2DF272FFD5000747F78 /* SAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67CA2BD272FFD4E00747F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67CA2CF272FFD5000747F78 /* LaunchScreen.storyboard in Resources */,
+				A67CA2CC272FFD5000747F78 /* Assets.xcassets in Resources */,
+				A67CA2CA272FFD4E00747F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2D3272FFD5000747F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2DE272FFD5000747F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67CA2BB272FFD4E00747F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67CA2C7272FFD4E00747F78 /* ImagePickerViewController.swift in Sources */,
+				A67CA2C3272FFD4E00747F78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2D1272FFD5000747F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67CA2DA272FFD5000747F78 /* SAPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67CA2DC272FFD5000747F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67CA2E5272FFD5000747F78 /* SAPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67CA2D7272FFD5000747F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67CA2BE272FFD4E00747F78 /* SAP */;
+			targetProxy = A67CA2D6272FFD5000747F78 /* PBXContainerItemProxy */;
+		};
+		A67CA2E2272FFD5000747F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67CA2BE272FFD4E00747F78 /* SAP */;
+			targetProxy = A67CA2E1272FFD5000747F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A67CA2C8272FFD4E00747F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67CA2C9272FFD4E00747F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A67CA2CD272FFD5000747F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67CA2CE272FFD5000747F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67CA2E7272FFD5000747F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A67CA2E8272FFD5000747F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67CA2EA272FFD5000747F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67CA2EB272FFD5000747F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A67CA2ED272FFD5000747F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAP.app/SAP";
+			};
+			name = Debug;
+		};
+		A67CA2EE272FFD5000747F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAP.app/SAP";
+			};
+			name = Release;
+		};
+		A67CA2F0272FFD5000747F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAP;
+			};
+			name = Debug;
+		};
+		A67CA2F1272FFD5000747F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.byndr.SAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67CA2BA272FFD4E00747F78 /* Build configuration list for PBXProject "SAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67CA2E7272FFD5000747F78 /* Debug */,
+				A67CA2E8272FFD5000747F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67CA2E9272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67CA2EA272FFD5000747F78 /* Debug */,
+				A67CA2EB272FFD5000747F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67CA2EC272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67CA2ED272FFD5000747F78 /* Debug */,
+				A67CA2EE272FFD5000747F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67CA2EF272FFD5000747F78 /* Build configuration list for PBXNativeTarget "SAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67CA2F0272FFD5000747F78 /* Debug */,
+				A67CA2F1272FFD5000747F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67CA2B7272FFD4E00747F78 /* Project object */;
+}

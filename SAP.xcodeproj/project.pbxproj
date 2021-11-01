@@ -98,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A67CA2C2272FFD4E00747F78 /* AppDelegate.swift */,
+				A6F164A5273009D700F9B51A /* Network Layer */,
 				A6F1649F273006B900F9B51A /* Features */,
 				A67CA2C8272FFD4E00747F78 /* Main.storyboard */,
 				A67CA2CB272FFD5000747F78 /* Assets.xcassets */,
@@ -171,6 +172,13 @@
 				A67CA2C6272FFD4E00747F78 /* ImagePickerViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6F164A5273009D700F9B51A /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
